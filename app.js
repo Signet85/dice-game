@@ -75,7 +75,7 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
         //уг тоглогч хожсон эсэхийг шалгах
         // Дэлгэц дээр нь оноог нь өөрчлөнө
         document.getElementById("score-" + activePlaver).textContent=scores[activePlaver];
-        if(scores[activePlaver]>=100){
+        if(scores[activePlaver]>=90){
             // Тоглоомыг дууссан төлөвт оруулна
             isNewGame=false;
             // ялагч гэсэн текстийг нэрний оронд гаргана
